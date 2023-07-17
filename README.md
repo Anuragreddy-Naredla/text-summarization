@@ -1,5 +1,13 @@
 # End to End Text-summarization-project
 
+## PROBLEM STATEMENT:
+-> consider there is a text or paragraph will be given to our api we need to identify the most important from the given text which ever words are more important and we have to present the abridged version of it we have to combine this together then we have to present this to user this type of problems is called the extractive text summarization because we are extracting from the given text we are not abstracting it which means we are not creating the new text.
+
+-> Given a text/ paragraph identify the most important information from the given text and present the abridged version of it to the end users.
+
+
+
+
 ## Workflows
 1. update config.yaml file.
 2. upadte params.yaml.
@@ -16,11 +24,17 @@ STEPS:
 Clone the repository
 
 https://github.com/Anuragreddy-Naredla/text-summarization
+
 STEP 01- Create a conda environment after opening the repository
+
 conda create -n summary python=3.8 -y
+
 conda activate summary
+
 STEP 02- install the requirements
+
 pip install -r requirements.txt
+
 # Finally run the following command
 python app.py
 Now,
